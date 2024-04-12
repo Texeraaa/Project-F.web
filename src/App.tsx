@@ -1,7 +1,6 @@
-import "./App.css";
 import { Button } from "@/components/ui/button";
 
-function App() {
+export function App() {
   return (
     <>
       <Button>Click Me</Button>
@@ -9,4 +8,3 @@ function App() {
   );
 }
 
-export default App;
