@@ -9,7 +9,7 @@ export function Header() {
     <header className="min-h-screen min-w-52 bg-muted px-2 pt-2">
       <nav>
         <Avatar>
-          <AvatarImage src="https://github.com/shadcn.png" />
+          <AvatarImage src="https://github.com/texeraaa.png" />
           <AvatarFallback>CN</AvatarFallback>
         </Avatar>
         <ul className="mt-4">
