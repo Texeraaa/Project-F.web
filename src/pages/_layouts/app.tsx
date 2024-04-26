@@ -8,7 +8,7 @@ export function AppLayout() {
       <div className="col-span-2">
         <Header />
       </div>
-      <div className="">
+      <div className="col-span-8 ">
         <Outlet />
       </div>
     </div>
