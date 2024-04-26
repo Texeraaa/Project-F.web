@@ -25,7 +25,7 @@ export function Dashboard() {
             <p className="text-2xl font-bold">R$12,90</p>
             <Link
               to={'/extracts'}
-              className="flex cursor-pointer items-center border-b-2 border-primary text-xl font-normal"
+              className="flex cursor-pointer items-center border-b-2  border-primary text-xl font-normal hover:text-primary"
             >
               <ChevronRight />
               Ver extrato
@@ -41,7 +41,7 @@ export function Dashboard() {
             <p className="text-2xl font-bold">R$1200,90</p>
             <Link
               to={'/extracts'}
-              className="flex cursor-pointer items-center border-b-2 border-primary text-xl font-normal"
+              className="flex cursor-pointer items-center border-b-2 border-primary text-xl font-normal hover:text-primary"
             >
               <ChevronRight />
               Ver extrato
