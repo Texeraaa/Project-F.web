@@ -5,11 +5,15 @@ import { SignIn } from '@/pages/auth/sign-in'
 
 import { AppLayout } from './pages/_layouts/app'
 import { AuthLayout } from './pages/_layouts/auth'
+import { Extracts } from './pages/app/extract'
 
 export const router = createBrowserRouter([
   {
     element: <AppLayout />,
-    children: [{ path: '/', element: <Dashboard /> }],
+    children: [
+      { path: '/', element: <Dashboard /> },
+      { path: '/extracts', element: <Extracts /> },
+    ],
   },
   {
     element: <AuthLayout />,
