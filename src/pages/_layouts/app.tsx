@@ -1,14 +1,14 @@
 import { Outlet } from 'react-router-dom'
 
-import { Header } from '@/components/header'
+// import { Header } from '@/components/header'
 
 export function AppLayout() {
   return (
-    <div className="grid min-h-screen grid-cols-10">
-      <div className="col-span-2">
+    <div className="flex min-h-screen min-w-full bg-neutral-950 px-6">
+      {/* <div className="col-span-12">
         <Header />
-      </div>
-      <div className="col-span-8 ">
+      </div> */}
+      <div className="min-w-full">
         <Outlet />
       </div>
     </div>
