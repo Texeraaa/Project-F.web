@@ -1,5 +1,5 @@
 import { AvatarFallback, AvatarImage } from '@radix-ui/react-avatar'
-import { Home, Newspaper } from 'lucide-react'
+import { Home } from 'lucide-react'
 import { Link } from 'react-router-dom'
 
 import { Avatar } from './ui/avatar'
